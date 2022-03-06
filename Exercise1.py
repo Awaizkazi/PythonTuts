@@ -3,4 +3,4 @@ Dict  = {'abase':'Cause to feel shame','benefit':'Advantage','callow':'Young and
 print('The required meaning is :')
 Search = input()
 print(Dict[Search])
-print('Thanks for Using my Dictionary')
+print('Thanks for Using My Dictionary')
