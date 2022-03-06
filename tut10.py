@@ -18,4 +18,4 @@ d2 = {"Harry": "Burger","Rohan": 'Fish','SkillF':'Roti',"Shubham":{"B":"maggie",
 # print(d2) #{'Harry': 'Burger', 'Rohan': 'Fish', 'SkillF': 'Roti', 'Shubham': {'B': 'maggie', 'L': 'roti', 'D': 'Chicken'}, 'Leena': 'Toffee'}
 print(d2.keys()) #dict_keys(['Harry', 'Rohan', 'SkillF', 'Shubham'])
 print(d2.items()) # ye return karta hai Key:vakue pairs ko , #dict_items([('Harry', 'Burger'), ('Rohan', 'Fish'), ('SkillF', 'Roti'), ('Shubham', {'B': 'maggie', 'L': 'roti', 'D': 'Chicken'})])
-
+print(d2.fromkeys('Rohan'))
